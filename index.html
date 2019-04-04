@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title>MuPAT &mdash; Multiple Precision Arithmetic Toolbox </title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+                    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+                    <meta name="author" content="freehtml5.co" />
+                    
+                    
+                    
+                    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">     -->
+                    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+                        
+                        <!-- Animate.css -->
+                        <link rel="stylesheet" href="css/animate.css">
+                            <!-- Icomoon Icon Fonts-->
+                            <link rel="stylesheet" href="css/icomoon.css">
+                                <!-- Bootstrap  -->
+                                <link rel="stylesheet" href="css/bootstrap.css">
+                                    <!-- Flexslider  -->
+                                    <link rel="stylesheet" href="css/flexslider.css">
+                                        
+                                        <!-- Theme style  -->
+                                        <link rel="stylesheet" href="css/style.css">
+                                            
+                                            <!-- Modernizr JS -->
+                                            <script src="js/modernizr-2.6.2.min.js"></script>
+                                            <!-- FOR IE9 below -->
+                                            <!--[if lt IE 9]>
+                                             <script src="js/respond.min.js"></script>
+                                             <![endif]-->
+                                            
+                                            </head>
+    <body>
+        
+        <div class="fh5co-loader"></div>
+        
+        <div id="page">
+            <nav class="fh5co-nav" role="navigation">
+                <div class="top-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <div id="fh5co-logo"><a href="index.html">MuPAT</a></div>
+                            </div>
+                            <div class="col-xs-10 text-right menu-1">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="download.html">Download</a></li>
+                                    <!--                                    <li><a href="usage.html">HowToUse</a></li>-->
+                                    <li><a href="references.html">References</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </nav>
+            
+            <div id="fh5co-about">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
+                            <h2>About MuPAT</h2>
+                            <p>&nbsp;&nbsp;This project helps user to compute fastly some matrix and vector operation with high-precision.
+                            While rounding errors are unavoidable in floating point arithmetic, they can be reduced through the use of high-precision arithmetic.
+                            Easy-to-use high-precision arithmetic is also important for end users.<br>
+                            &nbsp;&nbsp;In response to this need, our team developed MuPAT, an open-source interactive multiple precision arithmetic toolbox, which runs independently on any hardware and operating system for use with the MATLAB and Scilab computing environments.<br><br>
+                            
+                            &nbsp;&nbsp;MuPAT is based on double-double (DD) and quad-double (QD) arithmetics. DD and QD arithmetics only need double precision arithmetic environment.</br>
+                            
+                            &nbsp;&nbsp;You can use real numbers, same operators(-, +, *, /, ', [,], [;], size(), disp()), and comparisons (<, <=, ==, ~=, >=, >) for mixed double, double-double, and quad-double operations on arrays.</br>
+                                
+                                &nbsp;&nbsp;However, since these algorithms require from 10 to 600 double precision floating point operations for each operation, excessively long computation times often result.</br>
+                                
+                                &nbsp;&nbsp;Therefore, in order to accelerate processing, we selected three parallel processing features, <a href="https://software.intel.com/sites/landingpage/IntrinsicsGuide/ ">FMA</a>, <a href="https://software.intel.com/sites/landingpage/IntrinsicsGuide/ ">AVX2</a>, and <a href="https://www.openmp.org/  ">OpenMP</a>. and then implemented these three features in MuPAT in order to examine a number of basic matrix and vector operations.
+                                
+                                <center><a href="download.html">Please download at this page</a><center>
+                                    
+                                    </p>
+                                    </div>
+                    </div>
+                    
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
+                            <h2>Change log</h2>
+                            <p>2019 Apr 10 MuPAT 1.0.0 </br>
+                            &nbsp;scaler, vector (matrix) addition, inner product, matrix-vector multiplication, matrix-matrix multiplication in mixed (D-DD, D-QD, DD-D, DD-QD, QD-D, QD-DD), DD, QD arithmetic is parallelized by FMA, AVX2, and OpenMP. </p>
+                        </div>
+                    </div>
+                    
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
+                            <h2>Developer information</h2>
+                            <p>Name: Hotaka Yagi</br>
+                            email: 1419521@ed.tus.ac.jp</br>
+                            Affiliation: Tokyo university of science</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!--            <div id="fh5co-features">-->
+            <!--                <div class="container">-->
+            <!--                    <div class="services-padding">-->
+            <!--                        <div class="row">-->
+            <!--                            -->
+            <!--                            <div class="col-md-4 animate-box">-->
+            <!--                                <div class="feature-left">-->
+            <!--                                    <span class="icon">-->
+            <!--                                        <i class="icon-genius"></i>-->
+            <!--                                    </span>-->
+            <!--                                    <div class="feature-copy">-->
+            <!--                                        <h3>User guide</h3>-->
+            <!--                                        <p>You can learn how to use MuPAT.</p>-->
+            <!--                                        <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                            -->
+            <!--                            <div class="col-md-4 animate-box">-->
+            <!--                                <div class="feature-left">-->
+            <!--                                    <span class="icon">-->
+            <!--                                        <i class="icon-search"></i>-->
+            <!--                                    </span>-->
+            <!--                                    <div class="feature-copy">-->
+            <!--                                        <h3>Reference Manual</h3>-->
+            <!--                                        <p>Web reference manual is attached with maincode directory via <a href="http://www.doxygen.nl/">Doxygen. <i class="icon-arrow-right22"></i></a></p>-->
+            <!--                                        <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                                -->
+            <!--                            </div>-->
+            <!--                            -->
+            <!--                            <div class="col-md-4 animate-box">-->
+            <!--                                <div class="feature-left">-->
+            <!--                                    <span class="icon">-->
+            <!--                                        <i class="icon-chat"></i>-->
+            <!--                                    </span>-->
+            <!--                                    <div class="feature-copy">-->
+            <!--                                        <h3>Trouble shooting</h3>-->
+            <!--                                        <p>If you have any trouble or question, please contact me.</p>-->
+            <!--                                        <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
+            <!--                        -->
+            <!--                    </div>-->
+            <!--                </div>-->
+        </div>
+        </div>
+        
+        
+        
+        </div>
+        
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <!-- Main -->
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
+

@@ -1,0 +1,17 @@
+\form#0:$\alpha$
+\form#1:$\alpha_0 $
+\form#2:$ \alpha_1 $
+\form#3:$ \alpha = \alpha_0 + \alpha_1 $
+\form#4:$ \alpha_0 $
+\form#5:$ \alpha $
+\form#6:$ |\alpha_1| \frac{1}{2}ulp(\alpha_0) $
+\form#7:$ |\alpha_1| \leq \frac{1}{2}ulp(\alpha_0) $
+\form#8:$\beta$
+\form#9:$\beta_0 $
+\form#10:$ \beta_1 $
+\form#11:$\beta_2 $
+\form#12:$ \beta_3 $
+\form#13:$ \beta = \beta_0 + \beta_1 + \beta_2 + \beta_3 $
+\form#14:$ \beta_0 $
+\form#15:$ |\alpha_{i+1}| \leq \frac{1}{2}ulp(\alpha_{i}), i=0,1,2 $
+\form#16:$ |\beta_{i+1}| \leq \frac{1}{2}ulp(\alpha_{i}), (i=0,1,2) $
