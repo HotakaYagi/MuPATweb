@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   top: 40px;
   left: 0;
-  text-align: left;
+  text-align: justify;
   background: #000;
   padding: 20px;
   -webkit-border-radius: 4px;
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 90px;
   height: 90px;
   display: table;
-  text-align: center;
+  text-align: justify;
   background: #fff;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 50%;
 }
 .fh5co-video a i {
-  text-align: center;
+  text-align: justify;
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .feature-left .icon {
   display: table;
   float: left;
-  text-align: center;
+  text-align: justify;
   width: 60px;
   height: 60px;
   background: #fff;
@@ -989,7 +989,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-widget {
-    text-align: left;
+    text-align: justify;
   }
 }
 #fh5co-footer .fh5co-widget h4 {
@@ -1163,7 +1163,7 @@ input[type="text"] {
   display: table;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
-  text-align: center;
+  text-align: justify;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
