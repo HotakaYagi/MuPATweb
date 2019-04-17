@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: "Ubuntu";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
@@ -11,12 +11,12 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "arial"
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
-  color: #333333;
-  background: #fff;
+  color: #111111;
+  background: #FFF;
 }
 
 #page {
@@ -46,6 +46,7 @@ body {
   content: "";
 }
 
+/*トップのタイトル??*/
 a {
   color: #DD356E;
   -webkit-transition: 0.5s;
@@ -63,8 +64,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
-  font-family: "Inconsolata", Arial, sans-serif;
+  color: #111111;
+  font-family: "Ubuntu";
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -83,27 +84,30 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #DD356E;
 }
-
+/*ナビの背景色*/
 .fh5co-nav {
-  background: #fff;
+  background: #222222;
 }
 .fh5co-nav .top-menu {
-  padding: 28px 0;
+  padding: 5px 0;
 }
 .fh5co-nav #fh5co-logo {
   font-size: 32px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
   font-weight: 700;
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "Ubuntu";
 }
 .fh5co-nav #fh5co-logo a span {
   color: #DD356E;
 }
+/*最上のmupatの色*/
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #000;
+  color: #FFEEFF;
+}
+.fh5co-nav a:hover, .fh5co-nav a:focus, .fh5co-nav a:active {
+    color: #FF0461;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -112,24 +116,26 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul {
   padding: 0;
-  margin: 5px 0 0 0;
+  margin: 12px 0 0 0;
 }
 .fh5co-nav ul li {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 .fh5co-nav ul li a {
-  font-size: 18px;
-  padding: 30px 15px;
-  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  color: #FFEEFF;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+/*触った時の色*/
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: black;
+  color: #FF0461;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -679,12 +685,12 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #000;
+  color: #111111;
 }
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #111111;
 }
 .fh5co-heading span {
   display: block;
@@ -1109,7 +1115,7 @@ input[type="text"] {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
+  font-family: "Ubuntu";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1285,7 +1291,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "Ubuntu";
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
