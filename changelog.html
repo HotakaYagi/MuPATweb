@@ -11,7 +11,7 @@
                     
                     
                     
-                    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+                    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">     -->
                     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
                         
                         <!-- Animate.css -->
@@ -50,7 +50,7 @@
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="download.html">Download</a></li>
-                                     <li><a href="changelog.html">Changelog</a></li>
+                                    <li><a href="changelog.html">Changelog</a></li>
                                     <!--                                    <li><a href="usage.html">HowToUse</a></li>-->
                                     <li><a href="references.html">References</a></li>
                                 </ul>
@@ -63,51 +63,19 @@
             
             <div id="fh5co-about">
                 <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-                            <h2>About MuPAT</h2>
-                            <p>&nbsp;&nbsp;This project helps user to compute fastly some matrix and vector operation with high-precision.
-                            While rounding errors are unavoidable in floating point arithmetic, they can be reduced through the use of high-precision arithmetic.
-                            Easy-to-use high-precision arithmetic is also important for end users.<br>
-                            &nbsp;&nbsp;In response to this need, our team developed MuPAT, an open-source interactive multiple precision arithmetic toolbox, which runs independently on any hardware and operating system for use with the MATLAB and Scilab computing environments.<br><br>
-                            
-                            &nbsp;&nbsp;MuPAT is based on double-double (DD) and quad-double (QD) arithmetics. DD and QD arithmetics only need double precision arithmetic environment.</br>
-                            
-                            &nbsp;&nbsp;You can use real numbers, same operators(-, +, *, /, ', [,], [;], size(), disp()), and comparisons (<, <=, ==, ~=, >=, >) for mixed double, double-double, and quad-double operations on arrays.</br>
-                                
-                                &nbsp;&nbsp;However, since these algorithms require from 10 to 600 double precision floating point operations for each operation, excessively long computation times often result.</br>
-                                
-                                &nbsp;&nbsp;Therefore, in order to accelerate processing, we selected three parallel processing features, <a href="https://software.intel.com/sites/landingpage/IntrinsicsGuide/ ">FMA</a>, <a href="https://software.intel.com/sites/landingpage/IntrinsicsGuide/ ">AVX2</a>, and <a href="https://www.openmp.org/  ">OpenMP</a>. and then implemented these three features in MuPAT in order to examine a number of basic matrix and vector operations.
-                                
-                                <center><a href="download.html">Download Page is here</a><center>
-                                    
-                                    </p>
-                                    </div>
-                    </div>
-                    
-<!--                    <div class="row animate-box">-->
-<!--                        <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">-->
-<!--                            <h2>Change log</h2>-->
-<!--                            <p>2019 Apr 10 MuPAT 1.0.0 </br>-->
-<!--                            &nbsp;scaler, vector (matrix) addition, inner product, matrix-vector multiplication, matrix-matrix multiplication in mixed (D-DD, D-QD, DD-D, DD-QD, QD-D, QD-DD), DD, QD arithmetic is parallelized by FMA, AVX2, and OpenMP. </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-                            <h2>Developer</h2>
-                            <p>Name: Hotaka Yagi</br>
-                            Email: 1419521@ed.tus.ac.jp</br>
-                            Affiliation: Tokyo University of Science</p>
+                    <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
+                        <div class="row animate-box">
+                            <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
+                                <h2>Change log</h2>
+                                <p>2019 Apr 10 MuPAT 1.0.0 </br>
+                                &nbsp;scaler, vector (matrix) addition, inner product, matrix-vector multiplication, matrix-matrix multiplication in mixed (D-DD, D-QD, DD-D, DD-QD, QD-D, QD-DD), DD, QD arithmetic is parallelized by FMA, AVX2, and OpenMP. </p>
+                            </div>
                         </div>
+                        
                     </div>
-                    
                 </div>
             </div>
         </div>
-        </div>
-        
-        
         
         </div>
         
@@ -126,4 +94,3 @@
         
     </body>
 </html>
-
