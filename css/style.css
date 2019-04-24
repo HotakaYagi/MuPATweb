@@ -114,10 +114,12 @@ h1, h2, h3, h4, h5, h6, figure {
     display: none;
   }
 }
+/*メニューバーの上下間隔*/
 .fh5co-nav ul {
   padding: 0;
   margin: 12px 0 0 0;
 }
+/*横並びに設定*/
 .fh5co-nav ul li {
   padding: 0;
   margin: 0;
@@ -152,7 +154,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   text-align: justify;
-  background: #000;
+  background: #fff;
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -171,7 +173,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #000;
+  border-bottom-color: #fff;
   border-width: 8px;
   margin-left: -8px;
 }
