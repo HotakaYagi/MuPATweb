@@ -867,8 +867,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .container:before, .container:after {
   content: " ";
@@ -908,8 +908,8 @@ pre code {
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -55px;
+  margin-right: -55px;
 }
 .row:before, .row:after {
   content: " ";
