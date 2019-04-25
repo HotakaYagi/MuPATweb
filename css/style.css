@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .webmupat-nav a:hover, .webmupat-nav a:focus, .webmupat-nav a:active {
     color: #FF0461;
 }
+/*バーの何か*/
 @media screen and (max-width: 768px) {
   .webmupat-nav .menu-1 {
     display: none;
@@ -1189,103 +1190,6 @@ input[type="text"] {
   outline: none;
 }
 
-.webmupat-nav-toggle {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  text-decoration: none;
-  top: 25px !important;
-}
-.webmupat-nav-toggle.active i::before, .webmupat-nav-toggle.active i::after {
-  background: #444;
-}
-.webmupat-nav-toggle:hover, .webmupat-nav-toggle:focus, .webmupat-nav-toggle:active {
-  outline: none;
-  border-bottom: none !important;
-}
-.webmupat-nav-toggle i {
-  position: relative;
-  display: inline-block;
-  width: 25px;
-  height: 2px;
-  color: #252525;
-  font: bold 14px/.4 Helvetica;
-  text-transform: uppercase;
-  text-indent: -55px;
-  background: #252525;
-  transition: all .2s ease-out;
-}
-.webmupat-nav-toggle i::before, .webmupat-nav-toggle i::after {
-  content: '';
-  width: 25px;
-  height: 2px;
-  background: #252525;
-  position: absolute;
-  left: 0;
-  transition: all .2s ease-out;
-}
-.webmupat-nav-toggle.webmupat-nav-white > i {
-  color: #fff;
-  background: #000;
-}
-.webmupat-nav-toggle.webmupat-nav-white > i::before, .webmupat-nav-toggle.webmupat-nav-white > i::after {
-  background: #000;
-}
-
-.webmupat-nav-toggle i::before {
-  top: -7px;
-}
-
-.webmupat-nav-toggle i::after {
-  bottom: -7px;
-}
-
-.webmupat-nav-toggle:hover i::before {
-  top: -10px;
-}
-
-.webmupat-nav-toggle:hover i::after {
-  bottom: -10px;
-}
-
-.webmupat-nav-toggle.active i {
-  background: transparent;
-}
-
-.webmupat-nav-toggle.active i::before {
-  top: 0;
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
-  transform: rotateZ(45deg);
-  background: #fff;
-}
-
-.webmupat-nav-toggle.active i::after {
-  bottom: 0;
-  -webkit-transform: rotateZ(-45deg);
-  -moz-transform: rotateZ(-45deg);
-  -ms-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);
-  transform: rotateZ(-45deg);
-  background: #fff;
-}
-
-.webmupat-nav-toggle {
-  position: absolute;
-  right: 0px;
-  top: 65px;
-  z-index: 21;
-  padding: 6px 0 0 0;
-  display: block;
-  margin: 0 auto;
-  display: none;
-  height: 44px;
-  width: 44px;
-  z-index: 2001;
-  border-bottom: none !important;
-}
 @media screen and (max-width: 768px) {
   .webmupat-nav-toggle {
     display: block;
