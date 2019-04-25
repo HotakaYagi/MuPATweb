@@ -244,7 +244,7 @@
 
 	  	$('#webmupat-hero .flexslider .slides > li').css('height', $(window).height());
 	  	$(window).resize(function(){
-	  		$('#webmupat-hero .flexslider .slides > li').css('height', $(window).height());	
+	  		$('#webmupat-hero .flexslider .slides > li').css('height', $(window).height());
 	  	});
 
 	};
