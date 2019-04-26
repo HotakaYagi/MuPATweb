@@ -9,17 +9,27 @@
                     <meta name="keywords" content="MuPAT, mupat, OpenMP, openmp, FMA, fma, fused multiply add, AVX2, avx2, AVX, avx, advanced vector extenstions, SIMD, simd, sigle instructions multiplie data, MATLAB, mex, CPU, optimization, double-double, Double-Double, quad-double, Quad-Double, DD, QD, high precision, High precision, multi precision, Multi core, multi-core, shared memory, 256bit, ymm, linear algebra, matrix, vector" />
                     <meta name="author" content="Hotaka Yagi" />
                     
+                    
+                    <!-- Bootstrap  -->
+                    <link rel="stylesheet" href="css/bootstrap.css"/>
+                    
+                    <!-- Theme style  -->
+                    <link rel="stylesheet" href="css/style.css"/>
+                    
+                    <!--                                            <!-- Modernizr JS -->
+                    <!--                                            <script src="js/modernizr-2.6.2.min.js"></script>-->
+                    <meta name="google-site-verification" content="2sAwmFLh_AftwHiXx2HFMBZL1pOycRtdQoYx6XVQQ00" />
+                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139154805-1"></script>
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        
+                        gtag('config', 'UA-139154805-1');
+                        </script>
 
-                                <!-- Bootstrap  -->
-                                <link rel="stylesheet" href="css/bootstrap.css">
-
-                                        <!-- Theme style  -->
-                                        <link rel="stylesheet" href="css/style.css">
-                                            
-<!--                                            <!-- Modernizr JS -->
-<!--                                            <script src="js/modernizr-2.6.2.min.js"></script>-->
-
-                                            </head>
+                    </head>
     <body>
         
         <div id="page">
@@ -33,39 +43,37 @@
                             <span class="icon-bar"></span>
                         </button>
                         <div class="navbar-left" id="webmupat-logo">&nbsp;&nbsp;<a href="index.html">MuPAT</a></div>
-                        </div>
-                        <div class="collapse navbar-collapse " id="collapse-target">
-                            <ul class="navbar-right">
-                                <li><a href="download.html">Download</a></li>
-                                <li><a href="changelog.html">Changelog</a></li>
-                                <li><a href="references.html">References</a></li>
-                            </ul>
-                            </div>
                     </div>
+                    <div class="collapse navbar-collapse " id="collapse-target">
+                        <ul class="navbar-right">
+                            <li><a href="download.html">Download</a></li>
+                            <li><a href="changelog.html">Changelog</a></li>
+                            <li><a href="references.html">References</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
             
             <div id="webmupat-blog">
                 <div class="col-md-8 col-md-offset-2 text-justify webmupat-heading">
-                    <h2>About MuPAT</h2>
+                    <h2>MuPAT</h2>
                     <hr>
                     <h3><img src="arrow.png" width="30" height="30"> High-precision Arithmetic Environment</h3>
                     <p>&nbsp;&nbsp;This project helps user to compute fastly some matrix and vector operation with high-precision.
-                    While rounding errors are unavoidable in floating point arithmetic, they can be reduced through the use of high-precision arithmetic.MuPAT is based on double-double (DD) and quad-double (QD) arithmetics. DD and QD arithmetics only need double precision arithmetic environment.
+                    While rounding errors are unavoidable in floating point arithmetic, they can be reduced through the use of high-precision arithmetic.MuPAT is based on double-double (DD) and quad-double (QD) arithmetics. DD (QD) arithmetic is almost equivalent to quadruple (octuple) floating point arithmetic.
                     <br><br>
                     
                     <h3><img src="arrow.png" width="30" height="30"> Ease-to-Use (interactive and overloading operators)</h3>
-                    &nbsp;&nbsp;Easy-to-use high-precision arithmetic is also important for end users. In response to this need, our team developed MuPAT, an open-source interactive multiple precision arithmetic toolbox, which runs independently on any hardware and operating system for use with the MATLAB and Scilab computing environments.You can use real numbers, same operators(-, +, *, /, ', [,], [;], size(), disp()), and comparisons (<, <=, ==, ~=, >=, >) for mixed double, double-double, and quad-double floating point operations.</br></br>
+                    &nbsp;&nbsp;Easy-to-use high-precision arithmetic is also important for end users. In response to this need, our team developed MuPAT, an open-source interactive multiple precision arithmetic toolbox, which runs for use with the MATLAB and Scilab computing environments.You can use real numbers, same operators(-, +, *, /, ', [,], [;], size(), disp()), and comparisons (<, <=, ==, ~=, >=, >) for double-double, quad-double, and mixed-precision floating point operations.</br></br>
                         
                         <h3><img src="arrow.png" width="30" height="30"> Fast Computation</h3>
-                        &nbsp;&nbsp;Since these algorithms require from 10 to 600 double precision floating point operations for each operation, excessively long computation times often result. Therefore, in order to accelerate processing, we applyed three parallel processing features, <a href="https://en.wikipedia.org/wiki/Multiply%E6080%93accumulate_operation#Fused_multiply%E6080%93add ">FMA</a>, <a href="https://en.wikipedia.org/wiki/Advanced_Vector_Extensions ">AVX2</a>, and <a href="https://www.openmp.org/  ">OpenMP</a> to MuPAT for some basic matrix and vector operations. As a result, we can compute high-precision operations with 16 to 17 times faster.</p>
-                        <center><a href="download.html">Download Link</a><center>
+                        &nbsp;&nbsp;Since these algorithms require from 10 to 600 double precision floating point operations for each operation, the computation time is often result in excessively long time. In order to accelerate processing, we applyed three parallel processing features, <a href="https://en.wikipedia.org/wiki/Multiply%E6080%93accumulate_operation#Fused_multiply%E6080%93add ">FMA</a>, <a href="https://en.wikipedia.org/wiki/Advanced_Vector_Extensions ">AVX2</a>, and <a href="https://www.openmp.org/  ">OpenMP</a> for some basic matrix and vector operations. As a result, we can compute high-precision operations with 16 to 17 times faster than C function in DD and QD.</p>
+                        <center><a href="download.html"><font size="5.5"> DOWNLOAD</font></a><center>
                             </div>
                 <div class="col-md-8 col-md-offset-2 text-justify webmupat-heading">
                     <h2>Contact</h2>
                     <hr>
-                    <p>Name: Hotaka Yagi</br>
-                    Email: 1419521@ed.tus.ac.jp</br>
-                    Affiliation: Tokyo University of Science</p>
+                    <p>1419521@ed.tus.ac.jp, Hotaka Yagi, Tokyo University of Science</p>
                     
                 </div>
             </div>
@@ -83,7 +91,7 @@
         <!-- Bootstrap -->
         <script src="js/bootstrap.min.js"></script>
         <!-- Waypoints -->
-<!--        <script src="js/jquery.waypoints.min.js"></script>-->
+        <!--        <script src="js/jquery.waypoints.min.js"></script>-->
         <!-- Main -->
         <script src="js/main.js"></script>
         
