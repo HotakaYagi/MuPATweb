@@ -59,21 +59,21 @@
                     <h2>MuPAT</h2>
                     <hr>
                     <h3><img src="arrow.png" width="30" height="30"> High-precision Arithmetic Environment</h3>
-                    <p>&nbsp;&nbsp;This project helps user to compute fastly some matrix and vector operation with high-precision.
-                    While rounding errors are unavoidable in floating point arithmetic, they can be reduced through the use of high-precision arithmetic.MuPAT is based on double-double (DD) and quad-double (QD) arithmetics. DD (QD) arithmetic is almost equivalent to quadruple (octuple) floating point arithmetic.
+                    <p>&nbsp;&nbsp;This project helps user to compute fast some matrix and vector operation with high-precision.
+                    While rounding errors are unavoidable in floating point arithmetic, they can be reduced through the use of high-precision arithmetic. MuPAT is based on double-double (DD) and quad-double (QD) arithmetics. DD (QD) is the way to represent a quadruple (octuple) precision number with two (four) double precision numbers.
                     <br><br>
                     
                     <h3><img src="arrow.png" width="30" height="30"> Ease-to-Use (interactive and overloading operators)</h3>
                     &nbsp;&nbsp;Easy-to-use high-precision arithmetic is also important for end users. In response to this need, our team developed MuPAT, an open-source interactive multiple precision arithmetic toolbox, which runs for use with the MATLAB and Scilab computing environments. You can use same operators (-, +, *, /, ', [,], [;], etc), and comparisons (<, <=, ==, ~=, >=, >) for double-double, quad-double, and mixed-precision floating point operations.</br></br>
                         
                         <h3><img src="arrow.png" width="30" height="30"> Fast Computation</h3>
-                        &nbsp;&nbsp;Since these algorithms require from 10 to 600 double precision floating point operations for each operation, the computation time is often result in excessively long time. In order to accelerate processing, we applyed three parallel processing features, <a href="https://en.wikipedia.org/wiki/Multiply%E6080%93accumulate_operation#Fused_multiply%E6080%93add ">FMA</a>, <a href="https://en.wikipedia.org/wiki/Advanced_Vector_Extensions ">AVX2</a>, and <a href="https://www.openmp.org/  ">OpenMP</a> for some basic matrix and vector operations. As a result, we can compute high-precision operations with 16 to 17 times faster than C function in DD and QD.</p>
+                        &nbsp;&nbsp;Since DD and QD arithmetics require from 10 to 600 double precision floating point operations for each operation, the computation time is often result in excessively long time. In order to accelerate processing, we applied three parallel processing features, <a href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation">FMA</a>, <a href="https://en.wikipedia.org/wiki/Advanced_Vector_Extensions ">AVX2</a>, and <a href="https://www.openmp.org/  ">OpenMP</a> for some basic matrix and vector operations. As a result, we can compute DD and QD operations with 16 to 17 times faster than without acceleration.</p>
                         <center><a href="download.html"><font size="5.5"> DOWNLOAD</font></a><center>
                             </div>
                 <div class="col-md-8 col-md-offset-2 text-justify webmupat-heading">
                     <h2>Contact</h2>
                     <hr>
-                    <p>1419521@ed.tus.ac.jp, Hotaka Yagi, Tokyo University of Science</p>
+                    <p>1419521[at]ed.tus.ac.jp, Hotaka Yagi, Tokyo University of Science</p>
                     
                 </div>
             </div>
